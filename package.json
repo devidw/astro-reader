@@ -1,0 +1,27 @@
+{
+  "name": "astro-reader",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles": "./src/styles/index.styl"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "@astrojs/svelte": "^6.0.2",
+    "@fontsource/noto-serif": "^4.5.11",
+    "@iconify-json/heroicons-solid": "^1.1.6",
+    "@unocss/reset": "^0.64.0",
+    "astro": "^4.0.0",
+    "nanostores": "^0.7.1",
+    "stylus": "^0.59.0",
+    "svelte": "^5.0.0",
+    "unocss": "^0.64.0"
+  }
+}

@@ -1,0 +1,13 @@
+---
+import Layout from "./Layout.svelte"
+---
+
+<script is:inline>
+  document.body.classList.add("invisible", "js")
+</script>
+
+<Layout props={Astro.props} frontmatter={Astro.props.frontmatter} client:load>
+  <Fragment slot="content">
+    <slot />
+  </Fragment>
+</Layout>
